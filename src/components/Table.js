@@ -1,3 +1,5 @@
+import './styling.css';
+
 const Table = ({ sat }) => {
   const tableRow = sat.map((data) => (
     <tr key={data.id}>
